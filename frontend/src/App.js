@@ -43,7 +43,7 @@ import SinglePlaylistView from './routes/SinglePlaylistView';
             <Route path="/signup" element={<SignUp/>} />
             <Route path="/Home" element={<Home/>} />
             //If user is not logged in then on entering any api call redirect him to login page
-            <Route path="*" element={<Navigate to ="/login"/>} />
+            <Route path="*" element={<Navigate to ="/Home"/>} />
           </Routes>
           )}
         </BrowserRouter>
